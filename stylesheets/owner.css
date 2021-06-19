@@ -1,0 +1,149 @@
+.Vmenu {
+  width: 300px;
+  margin-left:10px;
+}
+
+.Vmenu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.Vmenu a:hover {
+  background-color: #ccc;
+}
+
+.Vmenu a.active {
+  background-color: #a3a3c2;
+  color: white;
+}
+main{
+
+    background-image: url(../images/back.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+
+}
+
+h1{
+	
+	font-weight: 70%;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-style: Normal;
+ font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	line-height: 54px;
+	margin-left: 15%;
+    margin-right:15%;
+	letter-spacing: 1px;
+
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text],textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #3399ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #66ffff;
+}
+
+.chairman {
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+}
+
+label{
+	color : #00e6e6;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+h3{
+	
+	font-weight: 80;
+	text-transform: uppercase;
+	color: #00e6e6;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 54px;
+	margin-left: 15%;
+    margin-right:15%;
+	letter-spacing: 3px;
+
+}
+u { 
+  text-decoration: underline;
+}
+form {
+    margin-left: 15%;
+    margin-right:15%;
+    width: 60%;
+}
+
+#bryan{
+	
+	font-weight: 50;
+	
+	color: #d9d9d9;
+	font-style: normal;
+	font-family: 'Arial';
+	
+	font-size: 17px;
+	line-height: 25px;
+	margin-left: 25%;
+    margin-right:25%;
+letter-spacing: 0px;}
+
+
+.chairman input[type=text]{
+	background-color:	#204060;
+	color:#ffff;
+}
+textarea::placeholder{
+	color:#b3b3b3;
+}
+input::placeholder{
+	color:#b3b3b3;
+}
+.chairman textarea{
+	resize :none;
+	background-color:#204060;
+	color:#ffff;
+}
+
+.chairman #errorMsg{
+	margin-bottom:20px;
+	padding: 0px;
+	background: #fe8b8e;
+	text-align:center;
+	font-size:14px;
+	transition:all 0.5s ease;
+} 
+	 
